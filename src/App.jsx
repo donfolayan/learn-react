@@ -1,6 +1,8 @@
 // import Calculator from "./components/Calculator"
 // import HiddenSearchBar from "./components/HiddenSearchBar"
-import Testimonial from "./components/Testimonial"
+// import Accordion from "./components/Accordion"
+import Form from "./components/Form"
+// import Testimonial from "./components/Testimonial"
 // import ToggleBackgroundColor from "./components/ToggleBackgroundColor"
 // import Counter from "./components/Counter"
 // import Meals from "./components/Meals"
@@ -14,7 +16,9 @@ const App = () => {
     {/* <Calculator /> */}
     {/* <ToggleBackgroundColor /> */}
     {/* <HiddenSearchBar /> */}
-    <Testimonial />
+    {/* <Testimonial /> */}
+    {/* <Accordion /> */}
+    <Form />
   </div>
 }
 export default App
