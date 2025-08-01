@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { FaSearch } from "react-icons/fa";
-import "../public/hiddenSearchBar.css";
+import "../styles/hiddenSearchBar.css";
 
 const HiddenSearchBar = () => {
   const [showInput, setShowInput] = useState(false);

@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import axios from "axios";
-import "../public/testimonial.css";
+import "../styles/testimonial.css";
 
 const Testimonial = () => {
   const [currentIndex, setCurrentIndex] = useState(0);

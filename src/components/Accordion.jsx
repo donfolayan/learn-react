@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { fetchAccordionContent } from "../utils/accordionUtils/accordionContent";
-import "../public/accordion.css";
+import "../styles/accordion.css";
 import AccordionItem from "../utils/accordionUtils/AccordionItem";
 
 const Accordion = () => {

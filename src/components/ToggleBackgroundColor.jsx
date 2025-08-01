@@ -1,5 +1,5 @@
 import { useState } from "react";
-import "../public/toggleColor.css";
+import "../styles/toggleColor.css";
 
 const ToggleBackgroundColor = () => {
   const [backgroundColor, setBackgroundColor] = useState("white");

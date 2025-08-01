@@ -116,7 +116,7 @@ react-demos/
 │   │   ├── Testimonial.jsx
 │   │   ├── Todo.jsx
 │   │   └── ToggleBackgroundColor.jsx
-│   ├── public/              # Component-specific CSS files
+│   ├── styles/              # Component-specific CSS files
 │   │   ├── accordion.css
 │   │   ├── calculator.css
 │   │   ├── counter.css
@@ -132,6 +132,7 @@ react-demos/
 │   │       └── accordionContent.js
 │   ├── App.jsx              # Main app component
 │   └── main.jsx             # App entry point
+├── public/                  # Static assets (favicon, etc.)
 ├── package.json
 └── README.md
 ```
@@ -202,8 +203,10 @@ const App = () => {
 
 - This project is designed for learning purposes
 - Each component demonstrates different React patterns
-- CSS is intentionally kept separate per component for clarity
+- CSS files are organized in the `src/styles/` directory for easy management
+- Components import their respective CSS files directly
 - Some components use `eval()` for demonstration - not recommended for production
+- The project structure prioritizes learning clarity over production optimization
 
 
 ---

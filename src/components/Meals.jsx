@@ -1,6 +1,6 @@
 import axios from "axios";
 import { useState, useEffect } from "react";
-import "../public/meals.css";
+import "../styles/meals.css";
 
 const Meals = () => {
   const [items, setItems] = useState([]);
